@@ -1,3 +1,50 @@
 body {
     text-align: center;
 }
+
+h1 {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#instructions {
+	background-color: #e6e6ff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	position: absolute;
+	margin-top: 270px;
+	width: 500px;
+	height: 250px;
+	font-size: 20px;
+}
+
+.start {
+	font-size: 30px;
+	background-color: #9bb2f0;
+	border-radius: 5px;
+	border: 1px solid #7e9ebf;
+}
+
+#endGame {
+	background-color: #e6e6ff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	position: absolute;
+	margin-top: 270px;
+	width: 500px;
+	height: 250px;
+	font-size: 30px;
+}
+
+.restart {
+	font-size: 30px;
+	background-color: #9bb2f0;
+	border-radius: 5px;
+	border: 1px solid #7e9ebf;
+}
